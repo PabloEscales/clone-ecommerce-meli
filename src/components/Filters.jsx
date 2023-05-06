@@ -26,20 +26,20 @@ export function Filters () {
     <section className='filters'>
 
       <div>
-        <label htmlFor={minPriceFilterId}>Min price</label>
+        <label htmlFor={minPriceFilterId} style={{color: '#51567A'}}>Min price</label>
         <input
           type='range'
           id={minPriceFilterId}
           min='0'
-          max='1000'
+          max='1500'
           onChange={handleChangeMinPrice}
           value={filters.minPrice}
         />
-        <span>${filters.minPrice}</span>
+        <span style={{color: '#51567A'}}>${filters.minPrice}</span>
       </div>
 
       <div>
-        <label htmlFor={categoryFilterId}>Category</label>
+        <label htmlFor={categoryFilterId} style={{color: '#51567A'}}>Category</label>
         <select id={categoryFilterId} onChange={handleChangeCategory}>
           <option value="all">All</option>
           <option value="laptops">Laptops</option>

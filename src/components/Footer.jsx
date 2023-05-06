@@ -4,8 +4,8 @@ export function Footer () {
 
   return (
     <footer className='footer'>
-      <h4>Technical test of react ⚛️ </h4>
-      <h5>Shopping Cart con useContext & useReducer</h5>
+      <h5>Contact us for especial order</h5>
+      <h4>📱 +45 7213 2400</h4>
     </footer>
   )
 }
